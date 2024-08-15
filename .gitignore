@@ -1,1 +1,39 @@
+##  @(#) : git ignore settings for hatena-blog
+#
+# @version  1.0.0
+# @author   Furukawa Atsushi <atsushifx@aglabo.com>
+# @update   2024-08-16
+# @license  MIT
+#
+# @desc<<
+#
+# hatena blog git ignore
+# ignore general
+#
+#<<
+
+##
+#	OS created files
+#
+
+##
+#	backup/swap/temp
+
+## blog's ignore
 draft
+
+##  Editor
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
